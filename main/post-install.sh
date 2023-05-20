@@ -2,7 +2,6 @@
 
 set -ouex pipefail
 
-systemctl disable docker.socket
 systemctl disable zincati.service
 
 systemctl enable ucore-paths-provision.service
