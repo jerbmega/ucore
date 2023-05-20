@@ -18,6 +18,7 @@
                 "perl-Config-IniFiles",
                 "podman",
                 "podman-compose",
+                "podman-docker",
                 "pv",
                 "qemu-guest-agent",
                 "tailscale",
@@ -30,7 +31,9 @@
             ]
         },
         "exclude": {
-            "all": []
+            "all": [
+                "moby-engine"
+            ]
         }
     }
 }
