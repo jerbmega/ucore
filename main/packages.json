@@ -3,6 +3,8 @@
         "include": {
             "all": [
                 "cockpit-networkmanager",
+                "cockpit-ostree",
+                "cockpit-pcp",
                 "cockpit-podman",
                 "cockpit-selinux",
                 "cockpit-storaged",
